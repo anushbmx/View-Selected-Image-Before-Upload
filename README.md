@@ -3,7 +3,7 @@
 
 ----Article Name ---- 
 
-This is a demo code to ----Article Name ---- made for article on Techstream ----Article Link----
+This is a demo code to demonstrate "----Article Name ----" project made for article on Techstream ----Article Link----
 
 Credits
 -------

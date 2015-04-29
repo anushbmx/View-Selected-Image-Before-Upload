@@ -35,6 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/demo.css" media="all">
 
+    <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -67,12 +68,32 @@
 							<div class="row">
 								
 								<div class="column-small-2">
-									<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=techstreamorg" id="_carbonads_js"></script>
+									<script async type="text/javascript" ="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=techstreamorg" id="_carbonads_js"></script>
 								</div>
 								<div class="column-small-8">
 									<h1 class="article-heading">--Title--</h1>
 									<article>
-										
+										<p>This is a demo code show case <strong>FileReader</strong> to display the selected image before uploading made for article on Techstream.</p>
+										<form enctype="multipart/form-data">							
+											<div class="row">
+												<div class="column-small-12 padd0 align-center">
+													<p>Select a file to begin</p>
+													<div id="drop-box">
+														<p>Select Files<br/>(images only)</p>
+													</div>
+													<p id="errors"></p>
+												</div>
+												<div class="column-small-12 padd0">
+													 <input type="file" name="files" id="uploadfile" />
+												</div>
+											</div>
+										</form>
+
+										<div id="row">
+											<div class="column-small-12 padd0" id="selectedimage">
+
+											</div>
+										</div>
 									</article>
 								</div>
 								<div class="column-small-2"></div>
