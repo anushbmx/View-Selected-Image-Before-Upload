@@ -1,9 +1,9 @@
-----Article Name ----
+View Selected Image Before Upload
 ================
 
-----Article Name ---- 
+View Selected Image Before Upload 
 
-This is a demo code to demonstrate "----Article Name ----" project made for article on Techstream ----Article Link----
+This is a demo code to demonstrate "View Selected Image Before Upload" project made for article on Techstream http://techstream.org/Bits/Javascript/View-Selected-Image-Before-Upload
 
 Credits
 -------

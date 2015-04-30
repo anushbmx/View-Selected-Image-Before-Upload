@@ -34,6 +34,8 @@ function showfiles(event){
 			var reader = new FileReader();
 			reader.readAsDataURL(file);
 			reader.onloadend = function() {
+
+				console.log(reader.result);
 				var img = new Image();		
 				img.src = reader.result;
 				$("#selectedimage").append(img);
